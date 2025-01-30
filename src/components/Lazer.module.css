@@ -69,7 +69,7 @@
     border: 2px solid #fff;
 }
 
-@media screen and (max-width: 414px) {
+@media (max-width: 500px) {
     .informes {
         flex-direction: column;
     }
