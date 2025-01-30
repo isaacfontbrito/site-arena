@@ -1,4 +1,5 @@
 import style from './Lazer.module.css'
+import { Mapa } from './Map/Map'
 
 export function Lazer() {
     return (
@@ -10,9 +11,9 @@ export function Lazer() {
 
                     </div>
                     <div className={style.mapa}>
-                        <p>Onde estamos</p>
+                        <p>Nosso espaço de lazer está aqui!</p>
                         <div className={style.local}>
-
+                            <Mapa />
                         </div>
                     </div>
                 </div>

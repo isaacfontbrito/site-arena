@@ -1,6 +1,6 @@
 import styles from './Header.module.css'
-import arenaBeer from '../assets/arenaBeer.png.png'
-import arenaClub from '../assets/arenaclube.png'
+import arenaBeer from '../../assets/arenaBeer.png.png'
+import arenaClub from '../../assets/arenaclube.png'
 
 
 export function Header() {
