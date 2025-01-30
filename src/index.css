@@ -1,0 +1,19 @@
+:root {
+  --white: #FFF;
+  --honeyDew-200: #F0FFF0;
+  --blue-900: #5775DB;
+
+
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Roboto;
+  background: #f0f0f0;
+}
