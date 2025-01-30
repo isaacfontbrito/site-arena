@@ -70,7 +70,18 @@
 }
 
 @media (max-width: 500px) {
+    
     .informes {
         flex-direction: column;
+    }
+
+    .imagens {
+        width: 95%;
+        height: 250px;
+    }
+
+    .mapa {
+        width: 95%;
+
     }
 }
