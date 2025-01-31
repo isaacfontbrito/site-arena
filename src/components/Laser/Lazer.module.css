@@ -95,6 +95,7 @@
 
 @media (max-width: 410px) {
     .imagens {
+        padding: 1px;
         height: 245px;
     }
 }
