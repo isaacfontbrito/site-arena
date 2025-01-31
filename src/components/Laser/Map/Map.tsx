@@ -1,13 +1,11 @@
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet"
-import { LatLngExpression } from 'leaflet'
 import * as L from 'leaflet'
 import icon from 'leaflet/dist/images/marker-icon.png';
 import iconShadow from 'leaflet/dist/images/marker-shadow.png';
 import "leaflet/dist/leaflet.css";
 import style from "./Map.module.css"
 
-
-const position: LatLngExpression =  [-4.174142, -40.940081]
+const position: L.LatLngTuple =  [-4.174142, -40.940081]
 
 const defaultIcon = L.icon({
     iconUrl: icon,
@@ -23,7 +21,7 @@ L.Marker.prototype.options.icon = defaultIcon
 export function Mapa() {
     
     // detecta se o usuario está no iphone
-    const isIOS = /iPad|iphone|iPod/.test(navigator.userAgent)
+    const isIOS = /iPad|iphone|iPod/.test(navigator.userAgent);
 
     const googleMapsUrl = `https://www.google.com/maps/dir/?api=1&destination=${position[0]},${position[1]}`
     const appleMapsUrl = `https://maps.apple.com/?daddr=${position[0]},${position[1]}`
