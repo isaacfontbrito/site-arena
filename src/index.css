@@ -1,5 +1,6 @@
 @import "leaflet/dist/leaflet.css";
-
+@import 'swiper/css';
+@import 'swiper/css/pagination';
 :root {
   --white: #FFF;
   --honeyDew-200: #F0FFF0;
