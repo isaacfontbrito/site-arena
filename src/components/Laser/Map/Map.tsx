@@ -1,10 +1,11 @@
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet"
+import { LatLngExpression } from 'leaflet'
 import "leaflet/dist/leaflet.css";
 
 import style from "./Map.module.css"
 
 
-const position = [-4.174142, -40.940081]
+const position: LatLngExpression =  [-4.174142, -40.940081]
 
 export function Mapa() {
     
@@ -15,8 +16,9 @@ export function Mapa() {
     const appleMapsUrl = `https://maps.apple.com/?daddr=${position[0]},${position[1]}`
 
     return (
-        <MapContainer   style={{height: "198px", width: "100%", borderRadius: "1px"}}>
-            <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+        <MapContainer  className={style.map} center={position} zoom={13}>
+            <TileLayer attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+                        url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                        
             />
                  
