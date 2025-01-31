@@ -14,6 +14,7 @@
     width: 100%;
     height: 300;
     object-fit: cover;
+    cursor: pointer;
     
 }
 
@@ -22,6 +23,28 @@
     transform: scale(1.01);
     box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.5);
 }
+
+.zoomOverlay {
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 9999;
+  }
+  
+  .zoomedImage {
+    max-width: 90%;
+    max-height: 90%;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+  }
 
 @media (max-width: 730px) {
     .images {
