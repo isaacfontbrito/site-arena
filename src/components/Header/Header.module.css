@@ -115,6 +115,14 @@
         flex-direction: column;
         align-items: center;
     }
+
+    .sidebar {
+        justify-content: space-around;
+    }
+
+    .sidebar a {
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 406px) {

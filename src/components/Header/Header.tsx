@@ -20,11 +20,11 @@ export function Header() {
                         <span><a href=".header"><img className={styles.img1} src={arenaBeer} alt="" /></a></span>
                     </div>
                     <div className={styles.btnsEsplorer}>
-                        <span><a href="#">Cardapio online</a></span>
-                        <span><a href=".seclazer">Espaço de lazer</a></span>
+                        <span><a href="#">Cardapio</a></span>
+                        <span><a href=".seclazer">lazer</a></span>
                         <span><a href="#">Gastronomia</a></span>
                         <span><a href="#">Bebidas</a></span>
-                        <span><a href="#">Escolhinha</a></span>
+                        <span><a href="#">Escolinha</a></span>
                         <span><a href="#">Eventos</a></span>
                     </div>
                 
