@@ -79,6 +79,7 @@
     }
 
     .imagens {
+        padding: 1px;
         width: 95%;
         height: 250px;
     }
@@ -97,5 +98,17 @@
     .imagens {
         padding: 1px;
         height: 245px;
+    }
+}
+@media (max-width: 360px) {
+    .imagens {
+        padding: 1px;
+        height: 220px;
+    }
+}
+@media (max-width: 320px) {
+    .imagens {
+        padding: 1px;
+        height: 200px;
     }
 }
