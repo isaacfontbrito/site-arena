@@ -1,11 +1,24 @@
 import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet"
 import { LatLngExpression } from 'leaflet'
+import * as L from 'leaflet'
+import icon from 'leaflet/dist/images/marker-icon.png';
+import iconShadow from 'leaflet/dist/images/marker-shadow.png';
 import "leaflet/dist/leaflet.css";
-
 import style from "./Map.module.css"
 
 
 const position: LatLngExpression =  [-4.174142, -40.940081]
+
+const defaultIcon = L.icon({
+    iconUrl: icon,
+    shadowUrl: iconShadow,
+    iconSize: [25, 41],
+    iconAnchor: [12, 41],
+    popupAnchor: [1, -34],
+    shadowSize: [41, 41]
+})
+
+L.Marker.prototype.options.icon = defaultIcon
 
 export function Mapa() {
     
