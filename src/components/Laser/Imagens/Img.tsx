@@ -49,7 +49,7 @@ export default function ImageCarrousel() {
                 modules={[Pagination, Autoplay, Navigation]}
                 spaceBetween={50}
                 slidesPerView={1}
-                autoplay={{delay: 1000, disableOnInteraction: false}} // Inicia o auto play quando hover
+                autoplay={{delay: 2000, disableOnInteraction: false}} // Inicia o auto play quando hover
                 onSwiper={setIsHovered}
             >
                 {images.map((src, index) => (
