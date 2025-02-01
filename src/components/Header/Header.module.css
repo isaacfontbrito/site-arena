@@ -27,15 +27,6 @@
     gap: 2px;
     
 }
-    
-.beer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 1px solid #e9e9e9;
-    border-radius: 50%;
-    background: #e9e9e9;  
-}  
 
 .img1 {
     margin-left: 5px;
@@ -154,59 +145,19 @@
 }
 
 @media (max-width: 470px) {
-    .btnsEsplorer {
-        
-        align-items: center;
-    }
+    
 
     .sidebar {
         justify-content: space-around;
     }
 
-    .sidebar a {
-        font-size: 10px;
-    }
+    
 }
 
 @media (max-width: 406px) {
     .sidebar {
         width: 100%;
 
-    }
-
-    .sidebar a {
-        font-size: 12px;
-        
-    }
-}
-
-@media (max-width: 383px) {
-    .sidebar {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .beer {
-        width: 135px;
-        height: 135px;
-        
-    }
-    
-    
-    .btnsEsplorer {
-        display: flex;
-        align-items: center;
-        margin: 0;
-        width: 100%;
-        height: auto;
-        padding: 5px;
-    
-    }
-
-    .sidebar a {
-        font-size: 10px;
-        
     }
 
 }
