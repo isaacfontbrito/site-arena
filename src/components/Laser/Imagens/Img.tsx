@@ -1,18 +1,27 @@
 import { Swiper , SwiperSlide } from 'swiper/react'
 import { Autoplay, Pagination, Navigation } from 'swiper/modules'
 import { Swiper as SwiperType } from 'swiper'
-import img1 from '../Imagens/images/jms-kFHz9Xh3PPU-unsplash.jpg'
-import img2 from '../Imagens/images/pexels-asphotograpy-1002703.jpg'
-import img3 from '../Imagens/images/pexels-pixabay-459728.jpg'
+import img1 from '../Imagens/images/arena1.jpg'
+import img2 from '../Imagens/images/arena2.jpg'
+import img3 from '../Imagens/images/arena3.jpg'
+import img4 from '../Imagens/images/arena4.jpg'
+import img5 from '../Imagens/images/arena5.jpg'
+import img6 from '../Imagens/images/arena6.jpg.jpg'
+import img7 from '../Imagens/images/arena7.jpg.jpg'
 
 import style from './Img.module.css'
 import { useState } from 'react'
 import * as React from 'react'
 
 const images = [
+    img7,
+    img5,
+    img6,
     img1,
     img2,
     img3,
+    img4,
+
 
 ]
 

@@ -5,19 +5,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    
     flex-wrap: wrap;
-    background: #e9e9e9;
+    
 }
 
 .divImg {
-    margin-top: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+    
     width: 100%;
     height: 150px;
     display: flex;
     justify-content: space-between;
+    background-image: url(../../assets/background.img.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+    
 }
 
 .btnsEsplorer {
@@ -51,6 +53,7 @@
     justify-content: space-between;
     z-index: 1;
     padding: 10px 10px;
+    opacity: 50%;
 }
 
 .sidebar a {
@@ -62,6 +65,10 @@
     transition: 0.3s;
     font-size: 16px;
     letter-spacing: 2px;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     
 
 }
@@ -110,6 +117,14 @@
     }
 }
 
+@media (max-width: 850px) {
+    .btnsEsplorer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, auto);
+        gap: 10px;
+    }
+}
 @media (max-width: 550px) {
     .btnsEsplorer {
         display: grid;
@@ -121,9 +136,9 @@
 @media (max-width: 500px) {
 
     .divImg {
+        width: 100%;
+        height: 100;
         
-        height: auto;
-        margin-bottom: 15px;
     }
 
 
@@ -145,7 +160,11 @@
 }
 
 @media (max-width: 470px) {
-    
+    .divImg {
+        width: 100%;
+        
+        
+    }
 
     .sidebar {
         justify-content: space-around;
@@ -157,7 +176,7 @@
 @media (max-width: 406px) {
     .sidebar {
         width: 100%;
-
+        
     }
 
 }
