@@ -1,0 +1,39 @@
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #bbcb99;
+}
+
+.foods {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #bbcb99;
+    /* border: 1px solid #3d5146;
+    border-radius: 5px; */
+}
+
+.foods h1 {
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+
+}
+
+.divfoods {
+    width: 600px;
+    height: 200px;
+    background: #3d5146;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
