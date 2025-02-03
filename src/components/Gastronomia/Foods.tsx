@@ -4,9 +4,9 @@ export function Foods() {
     return (
         <div className={style.container}>
             <div className={style.foods}>
-                <h1>Olá aqui está nosso cardapio</h1>
+                <h1>Olá aqui está nosso cardapio <span>😋</span></h1>
                 <div className={style.divfoods}>
-                    <h1>Em produção</h1>
+                    <p>Em produção</p>
                 </div>
             </div>
         </div>

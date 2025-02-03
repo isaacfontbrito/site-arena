@@ -14,27 +14,37 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: #bbcb99;
+    background: #ec9d04;
     /* border: 1px solid #3d5146;
     border-radius: 5px; */
 }
 
 .foods h1 {
-    color: #fff;
-    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%;
+    height: 30px;
+    color: #111920;
+    font-size: 14px;
     font-weight: bold;
     letter-spacing: 2px;
+    border-radius: 10px;
+    border: 1px solid #111920;
 
 }
+
+
 
 .divfoods {
     width: 600px;
     height: 200px;
-    background: #3d5146;
+    background: #fdb70d;
     margin: 20px;
     display: flex;
     align-items: center;
     justify-content: center;
+    border: 1px solid #111920;
     border-radius: 5px;
 }
 
