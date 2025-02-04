@@ -17,12 +17,12 @@
     border: none;
     
     flex-direction: column;
-    background: linear-gradient(to right, rgb(81, 140, 196, 1), rgb(90, 128, 211));
+    background: #d2d2d2;
     
 }
 
 .divlazer h1 {
-    color: #fff;
+    color: #333333;
     padding: 10px;
     font-size: 1rem;
     margin-bottom: 10px;
@@ -58,7 +58,7 @@
 }
 
 .mapa p {
-    color: #fff;
+    color: #333333;
     font-size: 0.9rem;
     font-weight: bold;
     

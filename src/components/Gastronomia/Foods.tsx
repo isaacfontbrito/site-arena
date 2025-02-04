@@ -4,7 +4,7 @@ export function Foods() {
     return (
         <div id='gastronomia' className={style.container}>
             <div className={style.foods}>
-                <h1>Olá aqui está nosso cardapio <span>😋</span></h1>
+                <h1>Explore Nossa Gastronomia<span>😋</span></h1>
                 <div className={style.divfoods}>
                     <p>Em produção</p>
                 </div>
