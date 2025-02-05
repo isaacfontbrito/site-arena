@@ -1,17 +1,21 @@
-import { Soccer } from './components/Escolinha/Soccer'
-import { Footer } from './components/Footer/Footer'
-import { Foods } from './components/Gastronomia/Foods'
-import { Header } from './components/Header/Header'
-import { Lazer } from './components/Laser/Lazer'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { Registration } from './components/Matricula/Registration'
+import { PageInitial } from './components/paginaInicial/InitialPage'
+
+const router = createBrowserRouter([
+  {
+    path: '/',
+    element: <PageInitial/>
+  },
+  {
+    path: '/registration',
+    element: <Registration/>
+  }
+])
 
 export function App() {
-  return (
-    <div>
-      <Header />
-      <Lazer />
-      <Foods />
-      <Soccer />
-      <Footer />
-    </div>
-  )    
+  return <RouterProvider router={router} />
+      
+    
+  
 }

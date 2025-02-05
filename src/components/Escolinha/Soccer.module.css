@@ -1,13 +1,58 @@
 .container {
     width: 100%;
     height: 200px;
-    background: #d3f2ee;
+    background-image: url('./image/soccer.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-h1 {
-    color: #111920;
+.container h1 {
+    color: #e8e8e8;
+    font-weight: bold;
+    letter-spacing: 2px;
+    margin: 15px;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.container h1 img {
+    width: 27px;
+    height: 27px;
+    border: 2px solid #e8e8e8;
+    border-radius: 50px;
+}
+
+.fut {
+    width: 90%;
+    height: 150px;
+    border: 1px solid #111920;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.container button {
+    width: 180px;
+    height: 60px;
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #30b560;
+    font-size: 14px;
+    color: #e8e8e8;
+    margin-bottom: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.container button:hover {
+    background-color: #119c49;
 }

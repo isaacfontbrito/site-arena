@@ -1,0 +1,77 @@
+.registration {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #161523;
+}
+
+.divForms {
+    width: 80%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid #146733;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+.divForms h1 {
+    color: #e8e8e8;
+    letter-spacing: 2px;
+}
+
+.divForms form {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.divForms form label {
+    color: #e8e8e8;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.divForms form input {
+    width: 300px;
+    height: 40px;
+    margin: 10px;
+    background: #252432;
+    border: 2px solid #146733;
+    border-radius: 5px;
+    padding: 10px;
+    color: #e8e8e8;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.divForms form button {
+    width: 200px;
+    height: 40px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    background: #149812;
+    font-size: 14px;
+    color: #e8e8e8;
+    font-weight: bold;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.divForms form button:hover {
+    background: #146733;
+}
