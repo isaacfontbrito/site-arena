@@ -30,7 +30,7 @@ export function Registration() {
 
             if (bloqueado && formData.nome && formData.telefone && formData.idade) {
         
-                const contato = '+5588996596317'
+                const contato = '+5588996617414'
                 
                 const mensagem = `Olá! Gostaria de fazer uma matricula na escolinha de futebol.%0A
                 *nome:* ${formData.nome}%0A
