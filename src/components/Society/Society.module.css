@@ -1,0 +1,43 @@
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #d2d2d2;
+    flex-direction: column;
+}
+
+.titulo {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #334f53;
+    padding: 10px;
+    margin-top: 0;
+}
+
+.titulo h1 {
+    color: #e8e8e8;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.titulo img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #111920;
+}
+
+.society {
+    margin: 5px;
+    width: 95%;
+    padding: 10px;
+    height: 200px;
+    border-radius: 5px;
+    background: #45936c;
+}
