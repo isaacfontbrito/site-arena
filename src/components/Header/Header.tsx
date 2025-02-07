@@ -21,7 +21,7 @@ export function Header() {
                     <div className={style.btnsEsplorer}>
                         <Link className={style.link} to='lazer' smooth={true} duration={500}>lazer <FaWater/></Link>
                         <Link className={style.link} to='gastronomia' smooth={true} duration={500}>Gastronomia <FaUtensils/></Link>
-                        <Link className={style.link} to='cardapio-online' smooth={true} duration={500}>Society <FaTrophy/></Link>
+                        <Link className={style.link} to='society' smooth={true} duration={500}>Society <FaTrophy/></Link>
                         <Link className={style.link} to='bebidas' smooth={true} duration={500}>Bebidas <FaCocktail/></Link>
                         <Link className={style.link} to='escolinha' smooth={true} duration={500}>Escolinha de futebol <MdSportsSoccer/></Link>
                         <Link className={style.link} to='Eventos' smooth={true} duration={500}>Eventos <FaCalendarAlt/></Link>
